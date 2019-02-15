@@ -19,7 +19,10 @@ body {
     border: none;
 }
 .btn:focus {
-    text-decoration: none;
+    /* text-decoration: none; */
+    /* outline-offset:-2px; */
+    /* -o-transform:rotate(0); */
+    outline: none;
 }
 
 .header {
